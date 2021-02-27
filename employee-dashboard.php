@@ -15,7 +15,7 @@ $connection=mysqli_connect("main-routes-customers.cojpszz7ysj9.us-east-1.rds.ama
   if ($connection) {
     echo "Connection established";
   } else {
-    die("Connection failed. Reason: ".mysqli_connect_error());
+    echo("Connection failed. Reason: ".mysqli_connect_error());
   }
 
 ?>
