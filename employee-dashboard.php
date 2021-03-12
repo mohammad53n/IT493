@@ -27,3 +27,25 @@ echo "Shahi Kulfi server IP Address is: $ip_server";
 </body>
 
 </html>
+
+
+//sample input html code
+<h3>View Route Info</h3>
+<form method="post"><select id="route" name="route">
+<option value="MD1">Maryland 1</option>
+<option value="MD2">Maryland 2</option>
+<option value="MD3">Maryland 3</option>
+<option value="MD4">Maryland 4</option>
+<option value="MD5">Maryland 5</option>
+<option value="PA1">Pennsylvania 1</option>
+<option value="PA1">Pennsylvania 2</option>
+<option value="RICHMOND">Richmond</option>
+<option value="VA1">Virginia 1</option>
+<option value="VA2">Virginia 2</option>
+<option value="VA3">Virginia 3</option>
+<option value="VA4">Virginia 4</option>
+<option value="VA5">Virginia 5</option>
+<option value="VA6">Virginia 6</option>
+<option value="VA7">Virginia 7</option>
+<option value="VA8">Virginia 8</option>
+</select><input name="Value 1" type="text" placeholder="Enter Value 1" /> <input name="Value 2" type="text" placeholder="Enter Value 2" /> <input name="submit-btn" type="submit" value="Submit" /></form>
